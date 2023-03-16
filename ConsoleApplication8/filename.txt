@@ -1,5 +1,4 @@
-
-.kuba.kebab.12.
-.bartek.brudny.12.
-.mihau.maly.13.
-
+jan;jajuh;12;
+kuba;krul;16;
+marcin;maly;11;
+pawel;pstrong;19;
