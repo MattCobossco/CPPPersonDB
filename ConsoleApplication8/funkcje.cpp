@@ -65,15 +65,34 @@ void Funkcje::Wyjdz() {
 void Funkcje::Wyszukaj() {
     string line;
     int offset;
+    int p;
     string szukaj = "";
     ifstream myfile("filename.txt");
-
-    cout << "Dane typiarza: ";
-    cin >> szukaj;
+    cout << "|{=-+-=}|:|{=-+-=}|:|{=-+-=}|:|{=-+-=}|:|{=-+-=}|" << "\n";
+    cout << "" << "\n";
+    cout << "" << "\n";
+    cout << "Po czym chcesz wyszukac typa: " << "\n";
+    cout << "" << "\n";
+    cout << "1. Po imieniu" << "\n";
+    cout << "2. Po nazwisku" << "\n";
+    cout << "3. Po wieku" << "\n";
+    cin >> p;
+    if (p == 1) {
+        cout << "Wprowadz imie: ";
+        cin >> szukaj;
+    } 
+    else if (p == 2) {
+        cout << "Wprowadz nazwisko: ";
+        cin >> szukaj;
+    }
+    else if (p == 3) {
+        cout << "Wprowadz wiek: ";
+        cin >> szukaj;
+    }
 
     while (getline(myfile, line)) {
         if ((offset = line.find(szukaj, 0)) != string::npos) {
-            cout << "Jest: " << line << endl;
+            cout << "Znalazlem: " << "\n" << line << endl;
         }
     }
     myfile.close();
