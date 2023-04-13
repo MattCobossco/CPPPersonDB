@@ -24,10 +24,10 @@ void Funkcje::Dodaj() {
     //cout << myObj.getName() << std::endl;
 
     ofstream MyFile("filename.txt", ios::app);
-    MyFile << a.
-    MyFile << ";" << b.
-    MyFile << ";" << c.
-    MyFile << ";" << "\n\r";
+    MyFile << a;
+    MyFile << "." << b;
+    MyFile << "." << c;
+    MyFile << "." << "\n\r";
     MyFile.close();
 }
 
