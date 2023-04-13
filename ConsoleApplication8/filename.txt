@@ -1,4 +1,10 @@
-jan;jajuh;12.
-kuba;krul;16.
-marcin;maly;11.
-pawel;pstrong;19.
+jan.jajuh.12.
+kuba.krul.16.
+marcin.maly.11.
+pawel.pstrong.19.
+Ala.Ala.12.
+Ola.Ola.1111111.
+chubert.cwel.14.
+szyomn.sezam.2.
+lysy.lupa.12.
+
