@@ -4,7 +4,7 @@
 using namespace std;
 
 class Funkcje {
-public:
+public: 
     void Pokaz();
     void Dodaj();
     void Wywal();
